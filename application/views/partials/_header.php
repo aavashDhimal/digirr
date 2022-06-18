@@ -63,6 +63,7 @@
     <?= !empty($this->fonts->secondary_font_url) ? $this->fonts->secondary_font_url : ''; ?>
     <?= !empty($this->fonts->tertiary_font_url) ? $this->fonts->tertiary_font_url : ''; ?>
     <link href="<?= base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="<?= base_url(); ?>assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet"/>
     <link href="<?= base_url(); ?>assets/css/style-1.9.min.css" rel="stylesheet"/>
     <link href="<?= base_url(); ?>assets/css/plugins-1.9.css" rel="stylesheet"/>
 <?php if ($this->dark_mode == 1) : ?>

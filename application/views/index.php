@@ -12,7 +12,7 @@
                     <?php $this->load->view("partials/_ad_spaces", ["ad_space" => "header", "class" => ""]); ?>
                 </div>
             </div>
-            <div id="content" class="col-sm-8 col-xs-12">
+            <div id="content" class="col-sm-12 col-xs-12">
                 <?php $x = 0;
                 foreach ($this->categories as $category):
                     if ($category->show_at_homepage == 1 && $category->lang_id == $this->selected_lang->id):

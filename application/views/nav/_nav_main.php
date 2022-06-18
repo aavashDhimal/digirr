@@ -8,7 +8,7 @@
                     <?php if ($this->general_settings->show_home_link == 1): ?>
                         <li class="<?= (uri_string() == 'index' || uri_string() == "") ? 'active' : ''; ?>">
                             <a href="<?= lang_base_url(); ?>">
-                                <?= trans("home"); ?>
+                                <?= trans("News"); ?>News
                             </a>
                         </li>
                     <?php endif; ?>

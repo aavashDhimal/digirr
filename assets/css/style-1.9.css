@@ -584,9 +584,9 @@ img.lazyload:not([src]) {
 
 .logo-banner .left .logo {
     width: 100%;
-    height: auto;
+    height: 135px;
     max-width: 240px;
-    max-height: 90px;
+    max-height: 175px;
     display: inline-block;
     position: relative;
     vertical-align: middle
