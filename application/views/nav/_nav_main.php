@@ -10,6 +10,9 @@
                             <a href="<?= lang_base_url(); ?>">
                                 <?= trans("News"); ?>News
                             </a>
+                            <a href="<?= lang_base_url(); ?>">
+                                <?= trans("News"); ?>News
+                            </a>
                         </li>
                     <?php endif; ?>
                     <?php

@@ -87,7 +87,7 @@
 </head>
 <body>
 <header id="header">
-    <?php $this->load->view('nav/_nav_top'); ?>
+    
     <div class="logo-banner">
         <div class="container">
             <div class="col-sm-12">
@@ -108,7 +108,7 @@
         </div><!--/.container-->
     </div><!--/.top-bar-->
     <?php $this->load->view('nav/_nav_main'); ?>
-
+    
     <div class="mobile-nav-container">
         <div class="nav-mobile-header">
             <div class="container-fluid">
@@ -130,7 +130,7 @@
             </div>
         </div>
     </div>
-
+    <?php $this->load->view('nav/_nav_top'); ?>
 </header>
 <div id="overlay_bg" class="overlay-bg"></div>
 
